@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
+   <form class="student_form">
+     <h1>STUDENT FORM</h1>
+     <table class="form_detils" border="0">
+       <tr>
+         <td>Name</td> <td><input type="text" name="" id="name_input" value=""  /></td>
+       </tr>
+       <tr>
+         <td>Age</td> <td><input type="number" name="" id="age_input" value="" /></td>
+       </tr>
+       <tr>
+         <td>Gender</td>
+         <td>
+           <select name="" id="gender_input">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+           </select>
+         </td>
+       </tr>
+       <tr>
+         <td>Course</td>
+         <td>
+           <select name="" id="course_input">
+             <option>Java Script</option>
+             <option>Python</option>
+             <option>Java</option>
+             <option>C</option>
+             <option>C++</option>
+           </select>
+         </td>
+       </tr>
+       <tr>
+         <td>E-Mail</td> <td><input type="email" name="" id="email_input" value="" /></td>
+       </tr>
+     </table>
+   </form>
+   <button type="submit" onclick="savename();">SAVE</button>
+   <br />
+   <br />
+   <div id="output_box">
+       <table border="1" id="output_table">
+        <tr>
+          <td>Name</td>
+          <td>Age</td>
+          <td>Gender</td>
+          <td>Course</td>
+          <td>Email</td>
+          <td>Action</td>
+        </tr>
+       </table>
+     </div>
+    
+    
+    
+    
+    
+    
+    
+   
+    <script src="script.js"></script>
+  </body>
+</html>
